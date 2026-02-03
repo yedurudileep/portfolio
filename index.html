@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- Your Style File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Dileep</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li> -->
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 hero-content">
+                    <h1 class="h3 fw-bold mb-2">Hello I'm</h1>
+                    <h1 class="display-6 fw-bold mb-3">Dileep Kumar Reddy Yeduru</h1>
+                    <!-- <h2 class="mb-4">Innovative Computer Scientist</h2> -->
+                    <p class="h3 mb-4">And I'm a <span class="auto-text"></span></p>
+                    <p class="lead mb-4">
+                        I am a BTech CSE graduate and a Software Development Engineer with a strong interest in web
+                        development. I continually work on enhancing my problem-solving skills, and I am proficient in
+                        Java programming.
+                    </p>
+                    <a href="#contact" class="btn btn-light btn-lg me-2">Contact Me</a>
+                    <a href="myfinalresumescore.pdf" class="btn btn-outline-light btn-lg" download>Download CV</a>
+                </div>
+                <div class="col-lg-6 text-center floating">
+                    <img src="my original pic.jpg" alt="John Doe" class="hero-img img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="row">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80"
+                        alt="About John" class="img-fluid about-img">
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="mb-3">Computer Science Graduate</h3>
+                    <p class="mb-4">I am a web developer and a student with knowledge of web technologies and Java
+                        programming.
+                        I enjoy building clean, simple, and functional websites, and I am constantly learning and
+                        improving my skills through practice and projects.
+                        I am motivated to grow as a developer and gain real-world experience in web and software
+                        development.
+                    </p>
+
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <p><strong>Name:</strong> Dileep Kumar Reddy Yeduru</p>
+                            <p><strong>Degree:</strong> Bachelor of Technology</p>
+                            <p><strong>Major:</strong> Computer Science</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p><strong>Email:</strong>yedurudileep771981@gmail.com</p>
+                            <p><strong>Phone:</strong>+91 8260396798</p>
+                            <p><strong>Location:</strong>Dharmapuram,Ichchapuram</p>
+                        </div>
+                    </div>
+
+                    <h4 class="mb-3">My Skills</h4>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="skill-item">
+                                <div class="skill-name">Python</div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 25%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">C++</div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 60%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">Java</div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skill-item">
+                                <div class="skill-name">JavaScript</div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 50%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">SQL</div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <!-- <div class="skill-item">
+                                <div class="skill-name">Cloud Computing</div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 80%"></div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title text-center mb-4">My Projects</h2>
+
+            <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000"
+                data-bs-pause="hover">
+                <div class="carousel-inner">
+
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="project-card">
+                                    <img src="Screenshot 2025-12-31 114834.png" class="card-img-top project-img">
+                                    <div class="card-body">
+                                        <h5>Rock Paper Scissors Game</h5>
+                                        <p>
+                                            A simple and fun Rock-Paper-Scissors game built with JavaScript.
+                                            The game tracks score for both player and computer, and displays results
+                                            dynamically.
+                                        </p>
+                                        <!-- <span class="badge bg-primary">Web Development</span> -->
+                                        <!-- <div><a href="#">Code</a> | <a href="#">Live Demo</a></div> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6">
+                                <div class="project-card">
+                                    <img src="Screenshot 2025-12-31 120631.png" class="card-img-top project-img">
+                                    <div class="card-body">
+                                        <h5>Scientific Calculator</h5>
+                                        <p>
+                                            A fully functional scientific calculator built using JavaScript with
+                                            features
+                                            like sin, cos, tan, log, exponential, π support, and expression evaluation.
+                                        </p>
+                                        <!-- <span class="badge bg-primary">JavaScript Project</span> -->
+                                        <!-- <div><a href="#">Code</a> | <a href="#">Live Demo</a></div> -->
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6">
+                                <div class="project-card">
+                                    <img src="Screenshot 2025-12-31 121629.png" class="card-img-top project-img">
+                                    <div class="card-body">
+                                        <h5>Responsive Login Page UI</h5>
+                                        <p>
+                                            A modern and responsive login page built using HTML, CSS, and JavaScript.
+                                            Includes password visibility toggle, remember-me option, and a clean UI with
+                                            a blurred background design.
+                                        </p>
+                                        <!-- <span class="badge bg-primary">Web Design</span> -->
+                                        <!-- <div><a href="#">Code</a> | <a href="#">Live Demo</a></div> -->
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="project-card">
+                                    <img src="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?auto=format&fit=crop&w=500&q=80"
+                                        class="card-img-top project-img">
+                                    <div class="card-body">
+                                        <h5>Hospital Management System</h5>
+                                        <p>Role based multi access web application.</p>
+                                        <!-- <span class="badge bg-primary">Spring Boot</span> -->
+                                        <!-- <div><a href="#">Code</a> | <a href="#">Live Demo</a></div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Add more projects here or replicate -->
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+
+            <!-- <div class="text-center mt-4">
+                <a href="#" class="btn btn-primary">View All Projects</a>
+            </div> -->
+        </div>
+    </section>
+
+
+
+    <!-- Education Section -->
+    <section id="education" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Education & Achievements</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2022-2026</div>
+                            <h4>Bachelor of Technology in Computer Science</h4>
+                            <p class="text-muted">AITAM,Tekkali</p>
+                            <p>CGPA: 8.88/10.0 | Bachelor of Technology</p>
+                            <p><strong>Relevant Coursework:</strong> Data Structures and Algorithms,
+                                Database Systems, Computer Networks, Operating Systems, Software Engineering</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2020 - 2022</div>
+                            <h4>Intermediate Education (MPC)</h4>
+                            <p class="text-muted">Narayana Junior College, Anandapuram</p>
+                            <p>Percentage: 95.8 | Focus on Mathematics, Physics, and Chemistry</p>
+                        </div>
+
+                    </div>
+                    <h3 class="mb-4">Certifications</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2025</div>
+                            <h4>ServiceNow Training (CSA & CAD)</h4>
+                            <p class="text-muted">ServiceNow</p>
+                            <p>Certified System Administrator (CSA) and Certified Application Developer (CAD) modules.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <!-- <h3 class="mb-4">Certifications</h3> -->
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2025</div>
+                            <h4>Introduction to SQL</h4>
+                            <p class="text-muted">Simplilearn</p>
+                            <p>Completed a comprehensive course on SQL fundamentals, including querying,
+                                data manipulation, and database management.
+                            </p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2024</div>
+                            <h4>NPTEL Certification – Introduction to Machine Learning</h4>
+                            <p class="text-muted">Indian Institute of Technology Kharagpur</p>
+                            <!-- <p>Successfully completed certification covering machine learning fundamentals and practical applications.</p> -->
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2024</div>
+                            <h4>NPTEL Certification – Data Engineering</h4>
+                            <p class="text-muted">Indian Institute of Technology Madras</p>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2024</div>
+                            <h4>Cyber Security Certification</h4>
+                            <p class="text-muted">Supraja Technologies</p>
+                            <p>Certified in core cyber security concepts, including network security and threat
+                                analysis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <!-- <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">Summer 2022</div>
+                            <h4>Software Engineering Intern</h4>
+                            <p class="text-muted">Google, Mountain View, CA</p>
+                            <ul>
+                                <li>Developed a machine learning pipeline to optimize ad placement, resulting in a 15%
+                                    increase in click-through rates</li>
+                                <li>Implemented a new feature for Google Ads using Java and BigQuery that reduced
+                                    processing time by 30%</li>
+                                <li>Collaborated with a team of 5 engineers in an Agile development environment</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2021 - 2022</div>
+                            <h4>Research Assistant</h4>
+                            <p class="text-muted">Stanford AI Lab, Stanford, CA</p>
+                            <ul>
+                                <li>Assisted in developing novel neural network architectures for natural language
+                                    processing</li>
+                                <li>Published research paper on "Transformer-based Models for Low-Resource Languages"
+                                </li>
+                                <li>Presented findings at the 2022 International Conference on Machine Learning</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">Summer 2021</div>
+                            <h4>Data Science Intern</h4>
+                            <p class="text-muted">Amazon, Seattle, WA</p>
+                            <ul>
+                                <li>Built predictive models to forecast product demand with 92% accuracy</li>
+                                <li>Created automated data visualization dashboards using Python and Tableau</li>
+                                <li>Reduced data processing time by 40% by optimizing SQL queries</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">2020 - 2021</div>
+                            <h4>Freelance Web Developer</h4>
+                            <p class="text-muted">Self-Employed</p>
+                            <ul>
+                                <li>Designed and developed 10+ responsive websites for small businesses</li>
+                                <li>Implemented SEO strategies that increased client website traffic by an average of
+                                    200%</li>
+                                <li>Technologies used: JavaScript, React, Node.js, MongoDB</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="row">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <h3 class="mb-4">Contact Information</h3>
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <div class="contact-info">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <h5>Location</h5>
+                                <p>Dharmapuram,Ichchapuram</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="contact-info">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <h5>Email</h5>
+                                <p>yedurudileep771981@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="contact-info">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <h5>Phone</h5>
+                                <p>8260396798</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-4">
+                            <div class="contact-info">
+                                <div class="contact-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <h5>Availability</h5>
+                                <p>Flexible — Feel free to contact me anytime</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <h3 class="mb-3">Follow Me</h3>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/dileep-kumar-reddy-yeduru-494b25276/" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/yedurudileep" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.instagram.com/yeduru_dileep_kumar/" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://twitter.com/yourusername" target="_blank">
+                            <i class="fab fa-x-twitter"></i>
+                        </a> 
+                    </div>-->
+
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="mb-4">Send Me a Message</h3>
+                    <form id="contactForm">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" id="name" name="name" class="form-control"
+                                        placeholder="Your Name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="email" id="email" name="email" class="form-control"
+                                        placeholder="Your Email" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <div class="form-group">
+                                <input type="number" id="number" name="number" class="form-control"
+                                    placeholder="Your Phone Number" required>
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="Subject" name="Subject" class="form-control" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="message" name="message" rows="5"
+                                placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2023 John Doe. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p class="mb-0">Designed with <i class="fas fa-heart text-danger"></i> by John Doe</p>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+    <footer>
+        <div class="container text-center">
+            <h5>Let's Connect</h5>
+            <p>If you'd like to discuss a project or just want to say hi, feel free to reach out.</p>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/dileep-kumar-reddy-yeduru-494b25276/" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/yedurudileep" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/yeduru_dileep_kumar/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <!-- <a href="https://twitter.com/yourusername" target="_blank">
+                            <i class="fab fa-x-twitter"></i>
+                        </a> -->
+            </div>
+
+            <p style="margin-top:10px;">© 2025 Yeduru Dileep Kumar Reddy. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-text", {
+            strings: ["developer", "kumar", "reddy"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true,
+        })
+    </script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- EmailJS -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+    <!-- Your JS File (must be last) -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
